@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Offwhite  background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333; /* Grey background color for the header */
+    color: #000; /* Black text color for the header */
+    text-align: center;
+    padding: 15px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.indented-item {
+    list-style-type: none; /* Remove the bullet point */
+    margin-left: 20px;     /* Add an indent (adjust the value as needed) */
+  }
+
+.search-bar {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
